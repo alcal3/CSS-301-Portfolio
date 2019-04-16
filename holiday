@@ -1,0 +1,8 @@
+#aleks calderon
+#4.16.2019
+#convert days to numbers
+
+leaving_day = int(input("What day do you leave for vacation? (number 0-6)"))
+stay_length = int(input("How long will you be on vacation for? "))
+ur_return = (leaving_day + stay_length) % 7
+print("You will return on", ur_return)
