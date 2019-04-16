@@ -1,0 +1,7 @@
+#aleks calderon
+#4.16.2019
+#loop prints every other number on new line
+
+listofnumbers = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for x in listofnumbers:
+    print(x)
