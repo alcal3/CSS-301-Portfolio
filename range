@@ -1,0 +1,8 @@
+#aleks calderon
+#4.16.2019
+#random list of numbers before 25 and fifty
+
+import random
+
+for x in range(10):
+    print(random.randint(25, 50))
