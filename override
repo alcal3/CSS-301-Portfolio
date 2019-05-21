@@ -1,0 +1,18 @@
+//Aleks Calderon
+//5.21.2019
+//M7 - Problem 1
+
+public class sampleClass
+ {
+   int x = 5;
+   
+   public static void main(String[] args)
+   {
+     sampleClass myObj = new sampleClass();
+     sampleClass myObj2 = new sampleClass();
+     
+     myObj.x = 21;
+       System.out.println(myObj.x);
+     	System.out.println(myObj2.x);
+   }
+ }
